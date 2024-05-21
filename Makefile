@@ -34,7 +34,7 @@ SRCS  = src/display.c \
 		src/get_next_line.c \
 		src/img_to_create.c \
 		src/init_map.c \
-		src/init_textures_1.c \
+		src/init_textures.c \
 		src/movements_2.c \
 		src/raycasting_1.c \
 		src/raycasting_2.c \
@@ -44,7 +44,7 @@ SRCS_BONUS = 	src/cub3d_bonus.c \
 				src/display_door_bonus.c \
 				src/error_bonus.c \
 				src/init_data_bonus.c \
-				src/init_textures_2_bonus.c \
+				src/init_textures_bonus.c \
 				src/minimap_bonus.c \
 				src/minimap_walls_bonus.c \
 				src/movements_1_bonus.c \
