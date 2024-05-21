@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   init_textures_1.c                                  :+:      :+:    :+:   */
+/*   init_textures.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "../include/cub3d.h"
-//erreur color >256
+
 void	convert_colors(t_data *data, char **color_tab, char c)
 {
 	unsigned long	tmp;
